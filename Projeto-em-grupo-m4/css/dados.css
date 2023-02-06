@@ -1,0 +1,56 @@
+*{margin: 0%;
+  box-sizing: border-box;
+  padding: 0%;
+}
+
+
+/* Personalização da body */
+body{
+    background-image: url("https://cdn.akamai.steamstatic.com/store/home/store_home_share.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    justify-content: center;
+}
+/* Fim personalização da body */
+
+/* Personalização do menu */
+ul{ display:flex;
+    justify-content:space-around;
+    list-style: none;
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0.5);  
+}
+
+
+          #menuF ul a{font-size: 28px;
+              color: white;
+              text-decoration: none;
+             
+
+          }
+
+            #menuF ul a:hover{
+              transition: all .5s;
+            border: 10px solid transparent;
+            }
+
+
+
+.corpo{color: #000000;
+  align-items: center;
+  text-align: center;
+  margin-left: 100px;
+  padding: 30px;
+  justify-content: center;
+  justify-items: center;
+}
+  
+
+
+
+
